@@ -10,6 +10,12 @@ body {
   font-weight: 400;
 }
 
+.nav-list {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
 @font-face {
   font-family: "Roboto-Light";
   font-weight: 300;
@@ -265,4 +271,59 @@ li {
 
 .top-header__callback:hover {
   background-image: url("/images/callback-hover.svg");
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  color: #727070;
+}
+
+.nav-list__item + .nav-list__item {
+  margin-left: 5px;
+}
+
+.nav-list__item:hover {
+  color: #1d77e5;
+  text-decoration: underline;
+}
+
+.main {
+  padding-top: 59px;
+}
+
+.main__inner {
+  position: relative;
+}
+
+.main__text {
+  background: rgba(239, 239, 239, 0.6);
+  -webkit-backdrop-filter: blur(35px);
+          backdrop-filter: blur(35px);
+  width: 50%;
+  height: 80%;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  z-index: 10;
+}
+
+.main__img {
+  width: 885px;
+  height: 591px;
+  display: block;
+  margin-left: auto;
 }

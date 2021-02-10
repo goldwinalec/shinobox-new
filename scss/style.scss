@@ -148,4 +148,50 @@ li {
   background-image: url("/images/callback-hover.svg");
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @extend %montserrat-medium;
+  font-size: 16px;
+  line-height: 20px;
+  color: #727070;
+}
+
+.nav-list__item + .nav-list__item {
+  margin-left: 5px;
+}
+
+.nav-list__item:hover {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.main {
+  padding-top: 59px;
+}
+
+.main__inner {
+  position: relative;
+}
+
+.main__text {
+  background: rgba(239, 239, 239, 0.6);
+  backdrop-filter: blur(35px);
+  width: 50%;
+  height: 80%;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  z-index: 10;
+}
+
+.main__img {
+  width: 885px;
+  height: 591px;
+  display: block;
+  margin-left: auto;
+}
+
 @import "media";
