@@ -4,6 +4,12 @@ body {
   font-weight: 300;
 }
 
+.top-header__address, .top-header__contacts-list {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 @font-face {
   font-family: "Roboto-Light";
   font-weight: 300;
@@ -119,4 +125,158 @@ li {
   max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.top-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  margin-bottom: 35px;
+}
+
+.top-header__address {
+  padding-left: 45px;
+  padding-right: 18px;
+  position: relative;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.top-header__address::before {
+  position: absolute;
+  content: "";
+  width: 33px;
+  height: 33px;
+  top: -webkit-calc(50% - 16px);
+  top: calc(50% - 16px);
+  left: 0;
+  background-image: url("/images/pin.svg");
+}
+
+.top-header__address::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 6px;
+  top: -webkit-calc(50% - 3px);
+  top: calc(50% - 3px);
+  right: 0;
+  background-image: url("/images/select.svg");
+}
+
+.top-header__contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-header__contacts-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 18px;
+}
+
+.top-header__whatsapp {
+  margin-right: 18px;
+}
+
+.top-header__callback svg path {
+  fill: linear-gradient(131.58deg, #62a9ff 16.37%, #338bf8 39.03%, #1d77e5 82.29%);
+}
+
+.top-header__logo {
+  margin: 0 10px;
+}
+
+.top-header__email {
+  margin-bottom: 5px;
+}
+
+.top-header__email:hover,
+.top-header__phone:hover {
+  color: #1d77e5;
+}
+
+#paint0_linear {
+  --x1-w: 4.95215;
+  --y1-w: 7.33333;
+  --x2-w: 28.6188;
+  --y1-w: 28.3333;
+}
+
+.w-p {
+  fill: #59ff6a !important;
+}
+
+.ws-1 {
+  --wsc1: #91ff9c;
+  --wso1: 0;
+}
+
+.ws-2 {
+  --wsc2: #58ff69;
+  --wso2: 0.510417;
+}
+
+.ws-3 {
+  --wsc3: #61f770;
+  --wso3: 1;
+}
+
+.top-header__whatsapp:hover #paint0_linear {
+  --x1-w: 4;
+  --y1-w: 7.33333;
+  --x2-w: 27.6667;
+  --y1-w: 28.3333;
+}
+
+.top-header__whatsapp:hover .w-p {
+  fill: #00b713 !important;
+}
+
+.top-header__whatsapp:hover .ws-1 {
+  --wsc1: #91ff9c;
+  --wso1: 0.34375;
+}
+
+.top-header__whatsapp:hover .ws-2 {
+  --wsc2: #1ae82f;
+  --wso2: 0.510417;
+}
+
+.top-header__whatsapp:hover .ws-3 {
+  --wsc3: #00b713;
+  --wso3: 1;
 }
