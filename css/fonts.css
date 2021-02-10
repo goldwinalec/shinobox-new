@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Open-Sans-Regular";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Open-Sans-Regular.woff2") format("woff2"), url("/fonts/Open-Sans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open-Sans-Boldold";
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Open-Sans-Boldold.woff2") format("woff2"), url("/fonts/Open-Sans-Boldold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open-Sans-Black";
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/Open-Sans-Black.woff2") format("woff2"), url("/fonts/Open-Sans-Black.woff") format("woff");
+}
