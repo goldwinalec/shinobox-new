@@ -4,6 +4,7 @@
   color: #1d77e5;
   text-transform: uppercase;
   display: block;
+  margin-bottom: 50px;
 }
 
 .subtitle {
@@ -146,6 +147,8 @@ body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   font-size: 18px;
   line-height: 21px;
@@ -527,4 +530,20 @@ li {
 .main__button--calc:hover {
   color: #1d77e5;
   border: 3px solid #1d77e5;
+}
+
+.features__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  border-top: 0.5px solid #231f20;
+  border-left: 0.5px solid #231f20;
+}
+
+.features__item {
+  border-right: 0.5px solid #231f20;
+  border-bottom: 0.5px solid #231f20;
 }

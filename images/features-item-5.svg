@@ -1,35 +1,36 @@
-<svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="40" cy="40" r="40" fill="#1D77E5"/>
 <g clip-path="url(#clip0)" filter="url(#filter0_d)">
-<path d="M31.923 0.0483398H25.0767C22.0518 0.0483398 19.5996 2.47467 19.5996 5.46769V42.5322C19.5996 45.5252 22.0518 47.9516 25.0767 47.9516H31.923C34.9478 47.9516 37.4 45.5252 37.4 42.5322V5.46769C37.4 2.47467 34.9478 0.0483398 31.923 0.0483398Z" stroke="white"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="19" y="0" width="19" height="48">
-<path d="M31.9719 0H25.0278C22.0029 0 19.5508 2.42633 19.5508 5.41935V42.5806C19.5508 45.5737 22.0029 48 25.0278 48H31.9719C34.9968 48 37.449 45.5737 37.449 42.5806V5.41935C37.449 2.42633 34.9968 0 31.9719 0Z" fill="white"/>
+<path d="M42.923 16.0483H36.0767C33.0518 16.0483 30.5996 18.4747 30.5996 21.4677V58.5322C30.5996 61.5252 33.0518 63.9516 36.0767 63.9516H42.923C45.9478 63.9516 48.4 61.5252 48.4 58.5322V21.4677C48.4 18.4747 45.9478 16.0483 42.923 16.0483Z" stroke="white"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="30" y="16" width="19" height="48">
+<path d="M42.9719 16H36.0278C33.0029 16 30.5508 18.4263 30.5508 21.4194V58.5806C30.5508 61.5737 33.0029 64 36.0278 64H42.9719C45.9968 64 48.449 61.5737 48.449 58.5806V21.4194C48.449 18.4263 45.9968 16 42.9719 16Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
-<path d="M19.5508 14.9516L28.4999 0L37.449 14.9516" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 11.081L28.4999 -3.87061L37.449 11.081" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 7.20991L28.4999 -7.7417L37.449 7.20991" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 18.8227L28.4999 3.87109L37.449 18.8227" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 22.6938L28.4999 7.74219L37.449 22.6938" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 26.5649L28.4999 11.6133L37.449 26.5649" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 30.436L28.4999 15.4844L37.449 30.436" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 34.3066L28.4999 19.355L37.449 34.3066" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 38.1777L28.4999 23.2261L37.449 38.1777" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 42.0488L28.4999 27.0972L37.449 42.0488" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 45.9194L28.4999 30.9678L37.449 45.9194" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 49.7905L28.4999 34.8389L37.449 49.7905" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 53.6616L28.4999 38.71L37.449 53.6616" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 57.5327L28.4999 42.5811L37.449 57.5327" stroke="white" stroke-linecap="square"/>
-<path d="M19.5508 60.436L28.4999 45.4844L37.449 60.436" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 30.9516L39.4999 16L48.449 30.9516" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 27.081L39.4999 12.1294L48.449 27.081" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 23.2099L39.4999 8.2583L48.449 23.2099" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 34.8227L39.4999 19.8711L48.449 34.8227" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 38.6938L39.4999 23.7422L48.449 38.6938" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 42.5649L39.4999 27.6133L48.449 42.5649" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 46.436L39.4999 31.4844L48.449 46.436" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 50.3066L39.4999 35.355L48.449 50.3066" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 54.1777L39.4999 39.2261L48.449 54.1777" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 58.0488L39.4999 43.0972L48.449 58.0488" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 61.9194L39.4999 46.9678L48.449 61.9194" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 65.7905L39.4999 50.8389L48.449 65.7905" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 69.6616L39.4999 54.71L48.449 69.6616" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 73.5327L39.4999 58.5811L48.449 73.5327" stroke="white" stroke-linecap="square"/>
+<path d="M30.5508 76.436L39.4999 61.4844L48.449 76.436" stroke="white" stroke-linecap="square"/>
 </g>
-<path d="M15.9809 22.7905H8.25439V27.1454H15.9809V22.7905Z" stroke="white"/>
-<path d="M15.981 20.4678H19.502V29.4678H15.981V20.4678Z" stroke="white"/>
-<path d="M41.0191 22.7905H48.7456V27.1454H41.0191V22.7905Z" stroke="white"/>
-<path d="M41.019 20.4678H37.498V29.4678H41.019V20.4678Z" stroke="white"/>
-<path d="M10.7465 8.61293L8.18629 7.18795L8.56988 6.51318L13.038 9.00002L8.56988 11.4869L8.18629 10.8121L10.7465 9.38712H4V8.61293H10.7465Z" fill="white"/>
-<path d="M46.8794 39.3871L49.4397 40.812L49.0561 41.4868L44.588 39L49.0561 36.5131L49.4397 37.1879L46.8794 38.6129H53.626V39.3871H46.8794Z" fill="white"/>
+<path d="M26.9809 38.7905H19.2544V43.1454H26.9809V38.7905Z" stroke="white"/>
+<path d="M26.981 36.4678H30.502V45.4678H26.981V36.4678Z" stroke="white"/>
+<path d="M52.0191 38.7905H59.7456V43.1454H52.0191V38.7905Z" stroke="white"/>
+<path d="M52.019 36.4678H48.498V45.4678H52.019V36.4678Z" stroke="white"/>
+<path d="M21.7465 24.6129L19.1863 23.188L19.5699 22.5132L24.038 25L19.5699 27.4869L19.1863 26.8121L21.7465 25.3871H15V24.6129H21.7465Z" fill="white"/>
+<path d="M57.8794 55.3871L60.4397 56.812L60.0561 57.4868L55.588 55L60.0561 52.5131L60.4397 53.1879L57.8794 54.6129H64.626V55.3871H57.8794Z" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_d" x="0" y="0" width="57" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="11" y="16" width="57" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -39,7 +40,7 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
 <clipPath id="clip0">
-<rect width="49" height="48" fill="white" transform="translate(4)"/>
+<rect width="49" height="48" fill="white" transform="translate(15 16)"/>
 </clipPath>
 </defs>
 </svg>

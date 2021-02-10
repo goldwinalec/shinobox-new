@@ -1,52 +1,53 @@
-<svg width="74" height="49" viewBox="0 0 74 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="40" cy="40" r="40" fill="#F7E461"/>
 <g filter="url(#filter0_d)">
-<path d="M46.6167 34.8722V28.9873C46.6167 26.3871 44.5109 24.2793 41.9133 24.2793L9.74531 24.2793C7.14769 24.2793 5.0419 26.3871 5.0419 28.9873V34.8722C5.0419 37.4724 7.14769 39.5802 9.74531 39.5802H41.9133C44.5109 39.5802 46.6167 37.4724 46.6167 34.8722Z" stroke="white"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="24" width="42" height="16">
-<path d="M46.6587 34.9143V28.9453C46.6587 26.3451 44.5529 24.2373 41.9553 24.2373L9.70332 24.2373C7.10569 24.2373 4.9999 26.3451 4.9999 28.9453V34.9143C4.9999 37.5144 7.10569 39.6223 9.70332 39.6223H41.9553C44.5529 39.6223 46.6587 37.5144 46.6587 34.9143Z" fill="white"/>
+<path d="M49.6167 48.8717V42.9868C49.6167 40.3866 47.5109 38.2788 44.9133 38.2788H12.7453C10.1477 38.2788 8.0419 40.3866 8.0419 42.9868V48.8717C8.0419 51.4719 10.1477 53.5797 12.7453 53.5797H44.9133C47.5109 53.5797 49.6167 51.4719 49.6167 48.8717Z" stroke="white"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="38" width="42" height="16">
+<path d="M49.6587 48.9138V42.9448C49.6587 40.3446 47.5529 38.2368 44.9553 38.2368H12.7033C10.1057 38.2368 7.9999 40.3446 7.9999 42.9448V48.9138C7.9999 51.5139 10.1057 53.6218 12.7033 53.6218H44.9553C47.5529 53.6218 49.6587 51.5139 49.6587 48.9138Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
-<path d="M33.6823 24.2373L46.6587 31.9298L33.6823 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M37.0422 24.2373L50.0186 31.9298L37.0422 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M40.4015 24.2373L53.3779 31.9298L40.4015 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M30.3229 24.2373L43.2993 31.9298L30.3229 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M26.9631 24.2373L39.9395 31.9298L26.9631 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M23.6037 24.2373L36.5801 31.9298L23.6037 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M20.2443 24.2373L33.2207 31.9298L20.2443 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M16.8845 24.2373L29.8608 31.9298L16.8845 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M13.5251 24.2373L26.5015 31.9298L13.5251 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M10.1652 24.2373L23.1416 31.9298L10.1652 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M6.80585 24.2373L19.7822 31.9298L6.80585 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M3.44647 24.2373L16.4229 31.9298L3.44647 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M0.0866069 24.2373L13.063 31.9298L0.0866069 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M-3.27277 24.2373L9.70361 31.9298L-3.27277 39.6223" stroke="white" stroke-linecap="square"/>
-<path d="M-5.79278 24.2373L7.18359 31.9298L-5.79278 39.6223" stroke="white" stroke-linecap="square"/>
+<path d="M36.6823 38.2368L49.6587 45.9293L36.6823 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M40.0422 38.2368L53.0186 45.9293L40.0422 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M43.4015 38.2368L56.3779 45.9293L43.4015 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M33.3229 38.2368L46.2993 45.9293L33.3229 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M29.9631 38.2368L42.9395 45.9293L29.9631 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M26.6037 38.2368L39.5801 45.9293L26.6037 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M23.2443 38.2368L36.2207 45.9293L23.2443 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M19.8845 38.2368L32.8608 45.9293L19.8845 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M16.5251 38.2368L29.5015 45.9293L16.5251 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M13.1652 38.2368L26.1416 45.9293L13.1652 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M9.80585 38.2368L22.7822 45.9293L9.80585 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M6.44647 38.2368L19.4229 45.9293L6.44647 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M3.08661 38.2368L16.063 45.9293L3.08661 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M-0.272767 38.2368L12.7036 45.9293L-0.272767 53.6218" stroke="white" stroke-linecap="square"/>
+<path d="M-2.79278 38.2368L10.1836 45.9293L-2.79278 53.6218" stroke="white" stroke-linecap="square"/>
 </g>
 </g>
 <g filter="url(#filter1_d)">
-<path d="M62.7228 38.8309L67.2271 35.0476C69.2172 33.3761 69.4771 30.4064 67.8074 28.4146L47.1313 3.74964C45.4617 1.7579 42.4948 1.49833 40.5047 3.16989L36.0004 6.95315C34.0103 8.6247 33.7505 11.5944 35.4201 13.5861L56.0962 38.2511C57.7659 40.2429 60.7327 40.5024 62.7228 38.8309Z" stroke="white"/>
-<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="34" y="2" width="35" height="38">
-<path d="M62.7178 38.8902L67.2866 35.0532C69.2768 33.3818 69.5365 30.4123 67.8668 28.4206L47.1352 3.6923C45.4655 1.70064 42.4985 1.44104 40.5083 3.11246L35.9395 6.94947C33.9493 8.62089 33.6896 11.5904 35.3593 13.5821L56.0909 38.3104C57.7606 40.3021 60.7276 40.5617 62.7178 38.8902Z" fill="white"/>
+<path d="M65.7228 52.8304L70.2271 49.0471C72.2172 47.3756 72.4771 44.4059 70.8074 42.4141L50.1313 17.7492C48.4617 15.7574 45.4948 15.4978 43.5047 17.1694L39.0004 20.9527C37.0103 22.6242 36.7505 25.5939 38.4201 27.5856L59.0962 52.2506C60.7659 54.2424 63.7327 54.5019 65.7228 52.8304Z" stroke="white"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="37" y="16" width="35" height="38">
+<path d="M65.7178 52.8897L70.2866 49.0527C72.2768 47.3813 72.5365 44.4118 70.8668 42.4202L50.1352 17.6918C48.4655 15.7002 45.4985 15.4406 43.5083 17.112L38.9395 20.949C36.9493 22.6204 36.6896 25.5899 38.3593 27.5816L59.0909 52.3099C60.7606 54.3016 63.7276 54.5612 65.7178 52.8897Z" fill="white"/>
 </mask>
 <g mask="url(#mask1)">
-<path d="M62.5494 22.0771L65.0022 36.9714L50.7744 31.9672" stroke="white" stroke-linecap="square"/>
-<path d="M64.7091 24.6533L67.1618 39.5476L52.9341 34.5434" stroke="white" stroke-linecap="square"/>
-<path d="M66.8687 27.2295L69.3215 42.1238L55.0937 37.1196" stroke="white" stroke-linecap="square"/>
-<path d="M60.3902 19.5009L62.843 34.3952L48.6153 29.391" stroke="white" stroke-linecap="square"/>
-<path d="M58.2301 16.9252L60.6828 31.8196L46.4551 26.8154" stroke="white" stroke-linecap="square"/>
-<path d="M56.0709 14.3491L58.5236 29.2434L44.2959 24.2392" stroke="white" stroke-linecap="square"/>
-<path d="M53.9117 11.7729L56.3645 26.6672L42.1367 21.663" stroke="white" stroke-linecap="square"/>
-<path d="M51.7521 9.19722L54.2048 24.0915L39.9771 19.0873" stroke="white" stroke-linecap="square"/>
-<path d="M49.5924 6.62056L52.0451 21.5149L37.8174 16.5107" stroke="white" stroke-linecap="square"/>
-<path d="M47.4332 4.04439L49.8859 18.9387L35.6582 13.9345" stroke="white" stroke-linecap="square"/>
-<path d="M45.2735 1.46871L47.7263 16.363L33.4985 11.3588" stroke="white" stroke-linecap="square"/>
-<path d="M43.1139 -1.10746L45.5666 13.7868L31.3389 8.78264" stroke="white" stroke-linecap="square"/>
-<path d="M40.9547 -3.68364L43.4074 11.2107L29.1797 6.20646" stroke="white" stroke-linecap="square"/>
-<path d="M38.795 -6.25981L41.2478 8.6345L27.02 3.63029" stroke="white" stroke-linecap="square"/>
-<path d="M37.1754 -8.19194L39.6281 6.70237L25.4004 1.69816" stroke="white" stroke-linecap="square"/>
+<path d="M65.5494 36.0766L68.0022 50.9709L53.7744 45.9667" stroke="white" stroke-linecap="square"/>
+<path d="M67.7091 38.6528L70.1618 53.5471L55.9341 48.5429" stroke="white" stroke-linecap="square"/>
+<path d="M69.8687 41.229L72.3215 56.1233L58.0937 51.1191" stroke="white" stroke-linecap="square"/>
+<path d="M63.3902 33.5004L65.843 48.3948L51.6153 43.3905" stroke="white" stroke-linecap="square"/>
+<path d="M61.2301 30.9248L63.6828 45.8191L49.4551 40.8149" stroke="white" stroke-linecap="square"/>
+<path d="M59.0709 28.3486L61.5236 43.2429L47.2959 38.2387" stroke="white" stroke-linecap="square"/>
+<path d="M56.9117 25.7724L59.3645 40.6667L45.1367 35.6625" stroke="white" stroke-linecap="square"/>
+<path d="M54.7521 23.1967L57.2048 38.091L42.9771 33.0868" stroke="white" stroke-linecap="square"/>
+<path d="M52.5924 20.6201L55.0451 35.5144L40.8174 30.5102" stroke="white" stroke-linecap="square"/>
+<path d="M50.4332 18.0439L52.8859 32.9382L38.6582 27.934" stroke="white" stroke-linecap="square"/>
+<path d="M48.2735 15.4682L50.7263 30.3625L36.4985 25.3583" stroke="white" stroke-linecap="square"/>
+<path d="M46.1139 12.892L48.5666 27.7864L34.3389 22.7821" stroke="white" stroke-linecap="square"/>
+<path d="M43.9547 10.3159L46.4074 25.2102L32.1797 20.206" stroke="white" stroke-linecap="square"/>
+<path d="M41.795 7.7397L44.2478 22.634L30.02 17.6298" stroke="white" stroke-linecap="square"/>
+<path d="M40.1754 5.80757L42.6281 20.7019L28.4004 15.6977" stroke="white" stroke-linecap="square"/>
 </g>
 </g>
 <defs>
-<filter id="filter0_d" x="0.541992" y="23.7793" width="50.5748" height="24.3009" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="3.54199" y="37.7788" width="50.5748" height="24.3009" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -55,7 +56,7 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
-<filter id="filter1_d" x="29.8198" y="1.56787" width="43.5875" height="46.8652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d" x="32.8198" y="15.5674" width="43.5875" height="46.8652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>

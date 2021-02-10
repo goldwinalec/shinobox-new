@@ -8,6 +8,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
   @extend %roboto-light;
   font-size: 18px;
@@ -336,6 +338,24 @@ li {
 .main__button--calc:hover {
   color: $blue;
   border: 3px solid $blue;
+}
+
+.features__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border-top: 0.5px solid $lightblack;
+  border-left: 0.5px solid $lightblack;
+}
+
+.features__item {
+  border-right: 0.5px solid $lightblack;
+  border-bottom: 0.5px solid $lightblack;
+}
+
+.features__item-img {
+  width: 80px;
+  height: 80px;
 }
 
 @import "media";
