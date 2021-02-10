@@ -34,6 +34,18 @@ li {
   margin: 0 auto;
 }
 
+.title {
+  @extend %title;
+}
+
+.subtitle {
+  @extend %subtitle;
+}
+
+.subtitle--blue {
+  @extend %subtitle--blue;
+}
+
 .top-header {
   display: flex;
   align-items: center;

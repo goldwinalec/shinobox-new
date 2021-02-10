@@ -1,10 +1,36 @@
+.title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d77e5;
+  text-transform: uppercase;
+  display: block;
+}
+
+.subtitle {
+  font-size: 64px;
+  line-height: 75px;
+  color: #231f20;
+  text-transform: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.subtitle--blue {
+  font-size: 64px;
+  line-height: 75px;
+  background-color: #1d77e5;
+  color: #fff;
+  padding: 5px;
+  text-transform: none;
+}
+
 body {
   font-family: "Roboto-Light", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
 
-.main__button {
+.title, .main__button {
   font-family: "Roboto-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -22,7 +48,7 @@ body {
   font-weight: 500;
 }
 
-.main__title {
+.subtitle, .subtitle--blue, .main__title {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;

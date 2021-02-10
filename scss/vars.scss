@@ -2,6 +2,35 @@ $yellow: #f7e461;
 $blue: #1d77e5;
 $lightblack: #231f20;
 
+%title {
+  @extend %roboto-medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: $blue;
+  text-transform: uppercase;
+  display: block;
+}
+
+%subtitle {
+  @extend %noah-bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: $lightblack;
+  text-transform: none;
+  display: block;
+  margin-top: 10px;
+}
+
+%subtitle--blue {
+  @extend %noah-bold;
+  font-size: 64px;
+  line-height: 75px;
+  background-color: $blue;
+  color: #fff;
+  padding: 5px;
+  text-transform: none;
+}
+
 %roboto-light {
   font-family: "Roboto-Light", sans-serif;
   font-style: normal;
