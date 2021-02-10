@@ -9,11 +9,11 @@
 
 body {
   overflow-x: hidden;
-  @extend %opensans-regular;
+  @extend %roboto-light;
   font-size: 18px;
-  line-height: 1.34;
-  color: #000;
-  background-color: #fff;
+  line-height: 21px;
+  color: $lightblack;
+  background-color: #e5e5e5;
 }
 
 a {

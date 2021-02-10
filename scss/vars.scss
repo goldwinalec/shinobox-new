@@ -1,19 +1,67 @@
-%opensans-regular {
-  font-family: "Open-Sans-Regular", sans-serif;
+$yellow: #f7e461;
+$blue: #1d77e5;
+$lightblack: #231f20;
+
+%roboto-light {
+  font-family: "Roboto-Light", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+%roboto-regular {
+  font-family: "Roboto-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-
-%opensans-semibold {
-  font-family: "Open-Sans-Semibold", sans-serif;
+%roboto-medium {
+  font-family: "Roboto-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+%montserrat-extralight {
+  font-family: "Montserrat-ExtraLight", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+%montserrat-regular {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%montserrat-medium {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+%montserrat-semibold {
+  font-family: "Montserrat-SemiBold", sans-serif;
   font-style: normal;
   font-weight: 600;
 }
-%opensans-bold {
-  font-family: "Open-Sans-Bold", sans-serif;
+
+%noah-regular {
+  font-family: "Noah-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%noah-bold {
+  font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-$yellow: #f2e185;
-$blue: #1d77e7;
+%cerapro-regular {
+  font-family: "CeraPro-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%cerapro-medium {
+  font-family: "CeraPro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+%cerapro-bold {
+  font-family: "CeraPro-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
