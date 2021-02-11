@@ -877,8 +877,12 @@ li {
 }
 
 .feedback__item {
-  flex-basis: 32%;
-  height: 100%;
+  flex-basis: 44%;
+  flex-shrink: inherit;
+  border: 1px solid rgba($lightblack, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .author__img {
@@ -897,12 +901,22 @@ li {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 40px 40px 0;
+  margin-bottom: 37px;
 }
 
 .rate {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 40px;
+  line-height: 100%;
+  @extend %noah-bold;
+  margin-left: -70px;
+}
+
+.rate__number {
+  margin-left: 8px;
 }
 
 .author__name {
@@ -912,6 +926,35 @@ li {
   text-align: center;
   margin: 0;
   margin-top: 8px;
+}
+
+.item-feedback__text {
+  @extend %montserrat-regular;
+  font-size: 16px;
+  line-height: 1.53;
+}
+
+.item-feedback__main {
+  padding: 0 40px;
+  margin-bottom: 90px;
+}
+
+.item-feedback__bottom {
+  text-align: center;
+  display: block;
+  margin-top: auto;
+}
+
+.feedback__link {
+  @extend %montserrat-semibold;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background-color: $blue;
+  display: block;
+  padding: 25px 0;
 }
 
 @import "media";
