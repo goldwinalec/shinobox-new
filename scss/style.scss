@@ -900,9 +900,16 @@ li {
 .item-feedback__top {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 40px 0;
   margin-bottom: 37px;
+  position: relative;
+}
+
+.item-feedback__link {
+  position: absolute;
+  left: 40px;
+  top: 40px;
 }
 
 .rate {
@@ -912,7 +919,9 @@ li {
   font-size: 40px;
   line-height: 100%;
   @extend %noah-bold;
-  margin-left: -70px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
 }
 
 .rate__number {
@@ -952,9 +961,15 @@ li {
   text-align: center;
   letter-spacing: 0.01em;
   color: #fff;
-  background-color: $blue;
   display: block;
   padding: 25px 0;
+}
+
+.feedback__link--facebook {
+  background-color: $blue;
+}
+.feedback__link--yandex {
+  background-color: #d7143a;
 }
 
 @import "media";

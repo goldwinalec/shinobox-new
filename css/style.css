@@ -1204,12 +1204,19 @@ li {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 40px 40px 0;
   margin-bottom: 37px;
+  position: relative;
+}
+
+.item-feedback__link {
+  position: absolute;
+  left: 40px;
+  top: 40px;
 }
 
 .rate {
@@ -1227,7 +1234,9 @@ li {
           justify-content: center;
   font-size: 40px;
   line-height: 100%;
-  margin-left: -70px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
 }
 
 .rate__number {
@@ -1264,7 +1273,14 @@ li {
   text-align: center;
   letter-spacing: 0.01em;
   color: #fff;
-  background-color: #1d77e5;
   display: block;
   padding: 25px 0;
+}
+
+.feedback__link--facebook {
+  background-color: #1d77e5;
+}
+
+.feedback__link--yandex {
+  background-color: #d7143a;
 }
