@@ -984,3 +984,19 @@ li {
   display: block;
   margin-top: 18px;
 }
+
+.accordion__item--active .accordion__title::after {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.accordion__item--active .accordion__title:hover {
+  cursor: default;
+}
+
+.accordion__item--active .accordion__title:hover::after {
+  background-image: url("/images/arrow-top.svg");
+}
