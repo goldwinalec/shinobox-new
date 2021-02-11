@@ -51,7 +51,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 500;
 }
 
-.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accrordion__title {
+.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -295,11 +295,11 @@ li {
   background-position: center center;
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 
 .top-header__whatsapp:hover {
@@ -314,11 +314,11 @@ li {
   background-position: center center;
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 
 .top-header__callback:hover {
@@ -909,20 +909,20 @@ li {
 
 .accordion__item {
   padding: 30px 0;
+  border-bottom: 1px solid #231f20;
 }
 
-.accrordion__title {
+.accordion__title {
   font-size: 64px;
   line-height: 1.17;
   margin: 0;
-  margin-bottom: 18px;
   padding-right: 90px;
   display: block;
   position: relative;
   cursor: pointer;
 }
 
-.accrordion__title::after {
+.accordion__title::after {
   position: absolute;
   content: "";
   right: 30px;
@@ -937,7 +937,7 @@ li {
   -o-transition: all 0.3s;
 }
 
-.accrordion__title:hover::after {
+.accordion__title:hover::after {
   background-image: url("/images/arrow-top-hover.svg");
 }
 
@@ -974,4 +974,13 @@ li {
 
 .accordion__link:hover {
   background-color: #e0c50b;
+}
+
+.accordion__text {
+  display: none;
+}
+
+.accordion__item--active .accordion__text {
+  display: block;
+  margin-top: 18px;
 }

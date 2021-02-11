@@ -142,11 +142,11 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 
 .top-header__whatsapp:hover {
@@ -160,11 +160,11 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
 
 .top-header__callback:hover {
@@ -672,21 +672,21 @@ li {
 
 .accordion__item {
   padding: 30px 0;
+  border-bottom: 1px solid $lightblack;
 }
 
-.accrordion__title {
+.accordion__title {
   @extend %noah-bold;
   font-size: 64px;
   line-height: 1.17;
   margin: 0;
-  margin-bottom: 18px;
   padding-right: 90px;
   display: block;
   position: relative;
   cursor: pointer;
 }
 
-.accrordion__title::after {
+.accordion__title::after {
   position: absolute;
   content: "";
   right: 30px;
@@ -701,7 +701,7 @@ li {
   -o-transition: all 0.3s;
 }
 
-.accrordion__title:hover::after {
+.accordion__title:hover::after {
   background-image: url("/images/arrow-top-hover.svg");
 }
 
@@ -741,6 +741,15 @@ li {
 
 .accordion__link:hover {
   background-color: #e0c50b;
+}
+
+.accordion__text {
+  display: none;
+}
+
+.accordion__item--active .accordion__text {
+  display: block;
+  margin-top: 18px;
 }
 
 @import "media";
