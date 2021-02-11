@@ -725,7 +725,7 @@ li {
 .rates__info--underline::after {
   position: absolute;
   content: "";
-  bottom: -5px;
+  bottom: -3px;
   left: 0;
   right: 0;
   width: 100%;
