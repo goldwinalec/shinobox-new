@@ -15,7 +15,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: $lightblack;
-  background-color: #e5e5e5;
+  background-color: #efefef;
 }
 
 a {
@@ -340,17 +340,26 @@ li {
   border: 3px solid $blue;
 }
 
+.features__inner {
+  padding-bottom: 100px;
+  background-image: url("/images/features-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 485px 299px;
+  background-position: 100% 95%;
+}
+
 .features__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border-top: 0.5px solid $lightblack;
-  border-left: 0.5px solid $lightblack;
+  border-top: 0.5px solid rgba($lightblack, 0.5);
+  border-left: 0.5px solid rgba($lightblack, 0.5);
 }
 
 .features__item {
-  border-right: 0.5px solid $lightblack;
-  border-bottom: 0.5px solid $lightblack;
+  border-right: 0.5px solid rgba($lightblack, 0.5);
+  border-bottom: 0.5px solid rgba($lightblack, 0.5);
+  padding: 30px;
 }
 
 .features__item-img {
@@ -358,4 +367,64 @@ li {
   height: 80px;
 }
 
+.features__item-img {
+  margin-bottom: 25px;
+}
+
+.features__item-title {
+  @extend %noah-bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.features__item-subtitle {
+  margin-top: 15px;
+  display: block;
+  @extend %roboto-light;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.promo__inner {
+  background-image: url("/images/promo-bg.svg");
+  background-position: 87% 70%;
+  background-size: 75% 89%;
+  background-repeat: no-repeat;
+}
+.promo__items {
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.promo__title {
+  margin: 0;
+  margin-top: 27px;
+  font-size: 64px;
+  line-height: 57px;
+  max-width: 480px;
+  @extend %noah-bold;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $lightblack;
+}
+
+.promo__left,
+.promo__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.promo__left {
+  margin-right: 27px;
+}
+
+.promo__right-img:first-child {
+  margin-bottom: 27px;
+}
 @import "media";
