@@ -424,8 +424,21 @@ li {
   margin-right: 27px;
 }
 
+.promo__left-img {
+  height: 346px;
+  overflow: hidden;
+}
+
+.promo__right-img {
+  overflow: hidden;
+}
+
 .promo__right-img:first-child {
   margin-bottom: 27px;
+  height: 265px;
+}
+.promo__right-img:nth-child(2) {
+  height: 318px;
 }
 
 .services {
@@ -471,6 +484,7 @@ li {
 
 .services__item {
   flex-basis: 49%;
+  overflow: hidden;
 }
 .services__item-title {
   @extend %noah-bold;
@@ -488,7 +502,8 @@ li {
 }
 
 .services__img {
-  width: 100%;
+  height: 446px;
+  overflow: hidden;
 }
 
 .rates__title {
@@ -852,6 +867,29 @@ li {
 
 .rating__link:hover {
   color: $blue;
+}
+
+.feedback__items {
+  margin-top: 45px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.feedback__item {
+  flex-basis: 32%;
+  height: 100%;
+}
+
+.author__img {
+  width: 129px;
+  height: 129px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 @import "media";
