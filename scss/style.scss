@@ -846,5 +846,12 @@ li {
   line-height: 1.53;
   margin-left: 15px;
 }
+.rating__link {
+  text-decoration: underline;
+}
+
+.rating__link:hover {
+  color: $blue;
+}
 
 @import "media";
