@@ -39,7 +39,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 500;
 }
 
-.top-header__address, .top-header__contacts-list, .rates__info {
+.top-header__address, .top-header__contacts-list, .rates__info, .rating__text {
   font-family: "Montserrat-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +51,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 500;
 }
 
-.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title {
+.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -999,4 +999,117 @@ li {
 
 .accordion__item--active .accordion__title:hover::after {
   background-image: url("/images/arrow-down.svg");
+}
+
+.feedback {
+  padding-top: 83px;
+}
+
+.rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rating__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-top: 1px solid rgba(35, 31, 32, 0.5);
+  border-right: 1px solid rgba(35, 31, 32, 0.5);
+  border-bottom: 1px solid rgba(35, 31, 32, 0.5);
+  padding: 12px 20px;
+  width: 100%;
+  text-align-last: left;
+}
+
+.rating__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-flex-basis: 32%;
+      -ms-flex-preferred-size: 32%;
+          flex-basis: 32%;
+}
+
+.rating__img--google {
+  border: 1px solid #3c79e6;
+  -webkit-border-image: -webkit-gradient(linear, left top, right bottom, from(#cf2d48), color-stop(#eb4132), color-stop(#fbbd00), color-stop(#31aa52), color-stop(#0f9d58), to(#3c79e6));
+  -webkit-border-image: -webkit-linear-gradient(left top, #cf2d48, #eb4132, #fbbd00, #31aa52, #0f9d58, #3c79e6);
+       -o-border-image: -o-linear-gradient(left top, #cf2d48, #eb4132, #fbbd00, #31aa52, #0f9d58, #3c79e6);
+          border-image: -webkit-gradient(linear, left top, right bottom, from(#cf2d48), color-stop(#eb4132), color-stop(#fbbd00), color-stop(#31aa52), color-stop(#0f9d58), to(#3c79e6));
+          border-image: linear-gradient(to right bottom, #cf2d48, #eb4132, #fbbd00, #31aa52, #0f9d58, #3c79e6);
+  border-image-slice: 1;
+}
+
+.rating__img--yandex {
+  border: 1px solid #d7143a;
+}
+
+.rating__img--zoon {
+  border: 1px solid rgba(35, 31, 32, 0.5);
+}
+
+.rating__img {
+  padding: 14px 15px;
+  width: 32%;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rating__number {
+  font-size: 64px;
+  line-height: 1.17;
+}
+
+.rating__number--yandex {
+  color: #f7e461;
+}
+
+.rating__number--google {
+  color: #1d77e5;
+}
+
+.rating__text {
+  font-size: 18px;
+  line-height: 1.53;
+  margin-left: 15px;
 }
