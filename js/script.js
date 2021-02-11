@@ -5,3 +5,13 @@ $('.accordion__title').on('click', function(){
     $(this).parent().addClass('accordion__item--active');
 
 })
+
+// плеер
+var videoPlayer = videojs('videoPlayer', {
+    controls: true,
+  autoplay: false,
+  preload: 'none',
+  userActions: {
+      hotkeys: true
+  }
+});

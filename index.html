@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Шино-Бокс на Магистральной - шиномонтаж и хранение шин</title>
+    <link
+  href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+  rel="stylesheet"
+/>
+    <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/video.css">
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -673,10 +681,10 @@
           и ЦАО в городе Москва
         </p>
       </div>
-        <video class="about__video" controls preload="none">
+        <video-js id="videoPlayer" class="about__video vjs-big-play-centered" controls preload="none" poster="/images/poster.svg">
           <source src="/video/Shinobox.ru_.mp4" type="video/mp4">
           <source src="/video/Shinobox.ru_.webm" type="video/webm">
-        </video>
+        </video-js>
         <div class="container">
         <ul class="about__list">
           <li class="about__list-item">
@@ -775,6 +783,7 @@
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
     type="text/javascript">
     </script>
+    <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
     <script src="/js/jquery.js"></script>
     <script src="/js/script.js"></script>
   </body>

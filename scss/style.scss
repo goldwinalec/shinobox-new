@@ -1,5 +1,6 @@
 @import "vars";
 @import "fonts";
+@import "video";
 
 *,
 *::before,
@@ -970,6 +971,20 @@ li {
 }
 .feedback__link--yandex {
   background-color: #d7143a;
+}
+
+.about {
+  padding-top: 90px;
+}
+
+.about__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  @extend %noah-bold;
+  font-size: 58px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 @import "media";

@@ -57,7 +57,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 600;
 }
 
-.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number, .rate, .author__name {
+.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number, .rate, .author__name, .about__text {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1283,4 +1283,17 @@ li {
 
 .feedback__link--yandex {
   background-color: #d7143a;
+}
+
+.about {
+  padding-top: 90px;
+}
+
+.about__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 58px;
+  line-height: 1.36;
+  text-align: center;
 }
