@@ -51,7 +51,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 500;
 }
 
-.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number {
+.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number, .author__name {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1170,4 +1170,43 @@ li {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  margin: 0 auto;
+}
+
+.item-feedback__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.author__name {
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+  margin-top: 8px;
 }
