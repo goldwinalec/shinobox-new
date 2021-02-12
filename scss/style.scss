@@ -1367,17 +1367,20 @@ li {
 }
 
 .footer__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
 }
 
 .footer__link {
   margin: 0 10px;
+  text-align: center;
 }
 
 .footer__policy {
   color: $blue;
+  text-align: right;
 }
 .footer__link:hover,
 .footer__policy:hover {
