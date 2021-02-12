@@ -87,6 +87,11 @@ li {
   top: calc(50% - 3px);
   right: 0;
   background-image: url("/images/select.svg");
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 .address-list {
@@ -94,7 +99,8 @@ li {
   z-index: 100;
 }
 
-.address-list:hover::before {
+.address-list:hover::before,
+.address-list:focus-within::before {
   position: absolute;
   content: "";
   left: -10px;
@@ -104,6 +110,15 @@ li {
   background-color: none;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
   height: 80px;
+}
+
+.address-list:hover .address-list__item::after,
+.address-list:focus-within .address-list__item::after {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 
 .address-list__item {
@@ -120,6 +135,10 @@ li {
   padding-inline-start: 0;
 }
 .address-list:hover .address-dropdown {
+  display: block;
+}
+
+.address-list:focus-within .address-dropdown {
   display: block;
 }
 
@@ -235,11 +254,59 @@ li {
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
+  position: relative;
+  z-index: 60;
+}
+
+.nav-list__link {
+  z-index: 60;
+}
+
+.nav-list__link:hover {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.nav-list__item--dropdown {
+  position: relative;
+}
+
+.nav-list__img {
+  display: none;
+  position: absolute;
+  content: "";
+  left: -28px;
+  top: -20px;
+  bottom: -44px;
+  right: 0;
+  z-index: -1;
+}
+
+.dropdown-navlist {
+  display: none;
+  position: absolute;
+  top: 35px;
+  bottom: -55px;
+  left: 0;
+  right: -150px;
+  z-index: 60;
 }
 
 .nav-list__item:hover {
-  color: $blue;
-  text-decoration: underline;
+  .dropdown-navlist {
+    display: block;
+  }
+  .nav-list__img {
+    display: block;
+  }
+}
+
+.dropdown-navlist__link {
+  text-transform: none;
+  @extend %montserrat-regular;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .main {
