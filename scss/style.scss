@@ -56,7 +56,7 @@ li {
   margin-bottom: 35px;
 }
 
-.top-header__address {
+.address-list__item {
   padding-left: 45px;
   padding-right: 18px;
   position: relative;
@@ -65,7 +65,12 @@ li {
   line-height: 17px;
 }
 
-.top-header__address::before {
+.address-list__link:hover {
+  z-index: 100;
+  color: $blue;
+}
+
+.address-list__item::before {
   position: absolute;
   content: "";
   width: 34px;
@@ -74,7 +79,7 @@ li {
   left: 0;
   background-image: url("/images/pin.svg");
 }
-.top-header__address::after {
+.address-list__item::after {
   position: absolute;
   content: "";
   width: 10px;
@@ -82,6 +87,44 @@ li {
   top: calc(50% - 3px);
   right: 0;
   background-image: url("/images/select.svg");
+}
+
+.address-list {
+  position: relative;
+  z-index: 100;
+}
+
+.address-list:hover::before {
+  position: absolute;
+  content: "";
+  left: -10px;
+  right: -10px;
+  top: -15px;
+  bottom: 0;
+  background-color: none;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+  height: 80px;
+}
+
+.address-list__item {
+  position: relative;
+  z-index: 100;
+}
+
+.address-dropdown {
+  display: none;
+  position: absolute;
+  left: 45px;
+  right: 18px;
+  bottom: -30px;
+  padding-inline-start: 0;
+}
+.address-list:hover .address-dropdown {
+  display: block;
+}
+
+.address-list__item {
+  z-index: 100;
 }
 
 .top-header__contacts {
