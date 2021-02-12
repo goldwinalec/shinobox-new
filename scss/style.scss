@@ -68,7 +68,7 @@ li {
 .top-header__address::before {
   position: absolute;
   content: "";
-  width: 33px;
+  width: 34px;
   height: 33px;
   top: calc(50% - 16px);
   left: 0;
@@ -1036,6 +1036,7 @@ li {
 
 .contacts {
   padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .contacts__inner {
@@ -1068,6 +1069,11 @@ li {
 .info-contacts__phone,
 .info-contacts__email {
   margin-bottom: 20px;
+}
+
+.info-contacts__phone:hover,
+.info-contacts__email:hover {
+  color: $blue;
 }
 
 .addresses {
@@ -1109,6 +1115,163 @@ li {
   position: absolute;
   left: -16px;
   top: -47px;
+}
+
+.social {
+  margin-top: 100px;
+}
+
+.social__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__list-item {
+  @extend %noah-bold;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $lightblack;
+  font-size: 36px;
+}
+
+.social__list-item:hover {
+  color: $lightblack;
+  -webkit-text-fill-color: $lightblack;
+}
+
+.contacts-2 {
+  border-top: 1px solid $lightblack;
+  border-bottom: 1px solid $lightblack;
+  padding: 50px 0;
+}
+
+.form-contacts {
+  padding: 50px 112px 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: auto;
+}
+
+.contacts-2__wrapper {
+  background-color: rgba(#fff, 0.3);
+}
+
+.contacts-2__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-contacts__title {
+  @extend %noah-bold;
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 16px;
+  flex-basis: 100%;
+}
+
+.form-contacts__input,
+.form-contacts__textarea {
+  padding: 20px 30px;
+  background-color: transparent;
+  border: 1px solid $lightblack;
+  @extend %cerapro-regular;
+  font-size: 16px;
+  line-height: 1;
+  color: $lightblack;
+}
+
+.form-contacts__input::placeholder,
+.form-contacts__textarea::placeholder {
+  color: $lightblack;
+}
+.form-contacts__input--name {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-contacts__input--phone {
+  width: 48%;
+}
+
+.form-contacts__input--email {
+  width: 48%;
+}
+
+.form-contacts__textarea {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  resize: none;
+  height: 230px;
+}
+
+.form-contacts__btn {
+  width: 48%;
+  padding: 20px;
+  border: none;
+  background-color: $blue;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.form-contacts__btn:hover {
+  background-color: #0d5ab9;
+}
+
+.form-contacts__text {
+  width: 48%;
+  text-align: right;
+  @extend %cerapro-regular;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.form-contacts__link {
+  color: $blue;
+}
+
+.form-contacts__link:hover {
+  text-decoration: underline;
+}
+
+.map {
+  background-color: #fff;
+}
+
+.footer {
+  padding: 90px 0 55px;
+  @extend %montserrat-regular;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__link {
+  margin: 0 10px;
+}
+
+.footer__policy {
+  color: $blue;
+}
+.footer__link:hover,
+.footer__policy:hover {
+  text-decoration: underline;
 }
 
 @import "media";

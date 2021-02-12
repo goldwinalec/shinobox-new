@@ -12,13 +12,14 @@
       <div class="container">
         <div class="header__top top-header">
           <div class="top-header__address">ул. 5-ая Магистральная 6с1</div>
-          <img
-            class="top-header__logo"
+          <a href="https://shino-box.ru/" class="top-header__logo">
+            <img
             src="/images/logo.svg"
             alt="Logo: Шино-Бокс"
           />
+          </a>
           <div class="top-header__contacts">
-            <a href="/" class="top-header__whatsapp">
+            <a href="https://wa.me/+74957216606" class="top-header__whatsapp" target="_blank">
             </a>
             <a href="/" class="top-header__callback">
           </a>
@@ -771,37 +772,41 @@
         </div>
         <div class="contacts__social social">
           <ul class="social__list">
-            <li class="social__list-item"><a href="/" class="social__list-link" target="_blank">Facebook </a></li>
-            <li class="social__list-item"><a href="/" class="social__list-link" target="_blank">Instagram</a></li>
-            <li class="social__list-item"><a href="/" class="social__list-link" target="_blank">Whatsapp</a></li>
-            <li class="social__list-item"><a href="/" class="social__list-link" target="_blank">VK</a></li>
+            <li class="social__list-item"><a href="https://www.facebook.com/shinoboxru" class="social__list-link" target="_blank">Facebook</a></li>
+            <li class="social__list-item"><a href="https://www.instagram.com/shinoboxru/" class="social__list-link" target="_blank">Instagram</a></li>
+            <li class="social__list-item"><a href="https://wa.me/+74957216606" class="social__list-link" target="_blank">Whatsapp</a></li>
+            <li class="social__list-item"><a href="https://vk.com/club147402490" class="social__list-link" target="_blank">VK</a></li>
           </ul>
         </div>
       </div>
     </section>
     <section class="contacts-2">
-      <div class="container">
-        <div class="contacts-2__inner">
-          <form action="" class="contacts-2__form form-contacts">
-            <h3 class="form-contacts__title">Связаться с нами</h3>
-            <input type="text" placeholder="Как к вам можно обращаться?*" name="" id="" class="form-contacts__input form-contacts__input--name">
-            <input type="tel" placeholder="Телефон*" name="" id="" class="form-contacts__input form-contacts__input--phone">
-            <input type="email" placeholder="Email" name="" id="" class="form-contacts__input form-contacts__input--email">
-            <textarea placeholder="Введите текст сообщения" name="" id="" class="form-contacts__textarea"></textarea>
-            <button type="submit" class="form-contacts__btn">ОТПРАВИТЬ</button>
-            <div class="form-contacts__text">Нажимая кнопку “Отправить”, вы принимаете условия <a href="/" target="_blank" class="form-contacts__link">Политики конфиденциальности</a></div>
-          </form>
-          <div class="contacts-2__map map" id="map"></div>
+      <div class="contacts-2__wrapper">
+        <div class="container">
+          <div class="contacts-2__inner">
+            <form action="" class="contacts-2__form form-contacts">
+              <h3 class="form-contacts__title">Связаться с нами</h3>
+              <input type="text" placeholder="Как к вам можно обращаться?*" name="" id="" class="form-contacts__input form-contacts__input--name" required>
+              <input type="tel" placeholder="Телефон*" name="" id="" class="form-contacts__input form-contacts__input--phone" required>
+              <input type="email" placeholder="Email" name="" id="" class="form-contacts__input form-contacts__input--email">
+              <textarea placeholder="Введите текст сообщения" name="" id="" class="form-contacts__textarea"></textarea>
+              <button type="submit" class="form-contacts__btn">ОТПРАВИТЬ</button>
+              <div class="form-contacts__text">Нажимая кнопку “Отправить”, вы принимаете условия <a href="/" target="_blank" class="form-contacts__link">Политики конфиденциальности</a></div>
+            </form>
+            <div class="contacts-2__map map" id="map"></div>
+          </div>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="footer__privacy">ООО “Шино Бокс” | 2021 © Все права защищены</div>
-        <a href="/" class="footer__link">Карта сайта</a>
-        <a href="/" class="footer__policy" target="_black">Политика конфиденциальности</a>
-      </footer>
+        <div class="footer__inner">
+          <div class="footer__privacy">ООО “Шино Бокс” | 2021 © Все права защищены</div>
+          <a href="/" class="footer__link">Карта сайта</a>
+          <a href="/" class="footer__policy" target="_black">Политика конфиденциальности</a>
+        </div>
       </div>
+    </footer>
 
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
     type="text/javascript">
