@@ -986,4 +986,51 @@ li {
   text-align: center;
 }
 
+.about__list {
+  @extend %montserrat-regular;
+  font-size: 30px;
+  line-height: 1.54;
+  margin-top: 50px;
+}
+
+.about__list-item + .about__list-item {
+  margin-top: 1.54em;
+}
+
+.clients {
+  padding-top: 80px;
+}
+
+.clients__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-top: 0.5px solid rgba($lightblack, 0.5);
+  border-left: 0.5px solid rgba($lightblack, 0.5);
+}
+
+.clients__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 40px;
+  border-right: 0.5px solid rgba($lightblack, 0.5);
+  border-bottom: 0.5px solid rgba($lightblack, 0.5);
+}
+
+.clients__more-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.clients__item-link {
+  @extend %roboto-medium;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  padding: 110px 20px;
+  background-color: $yellow;
+  flex-direction: column;
+}
+
 @import "media";
