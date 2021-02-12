@@ -33,6 +33,12 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 300;
 }
 
+.addresses__list-address {
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .title, .main__button, .rates__item-text, .rates__item-link, .rates__more-link, .accordion__list-item, .accordion__link, .clients__item-link {
   font-family: "Roboto-Medium", sans-serif;
   font-style: normal;
@@ -57,10 +63,16 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 600;
 }
 
-.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number, .rate, .author__name, .about__text {
+.subtitle, .subtitle--blue, .main__title, .features__item-title, .promo__title, .services__items-title, .services__item-title, .rates__item-title, .rates__more-text, .accordion__title, .rating__number, .rate, .author__name, .about__text, .info-contacts, .addresses__list-number {
   font-family: "Noah-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+
+.addresses__list-item {
+  font-family: "CeraPro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
@@ -1356,4 +1368,101 @@ li {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  border: none;
+}
+
+.contacts {
+  padding-top: 90px;
+}
+
+.contacts__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info-contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.info-contacts__city {
+  font-size: 144px;
+  line-height: 1.25;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.info-contacts__phone,
+.info-contacts__email,
+.info-contacts__working-hours {
+  font-size: 64px;
+}
+
+.info-contacts__phone,
+.info-contacts__email {
+  margin-bottom: 20px;
+}
+
+.addresses {
+  margin-top: 120px;
+}
+
+.addresses__list-item {
+  font-size: 24px;
+  line-height: 1.25;
+  margin-left: 10px;
+  margin-right: 100px;
+  position: relative;
+  display: block;
+}
+
+.addresses__list-item + .addresses__list-item {
+  margin-top: 80px;
+  display: block;
+}
+
+.addresses__list-address {
+  display: block;
+  padding-top: 27px;
+}
+
+.addresses__list-item:hover {
+  color: #1d77e5;
+}
+
+.addresses__list-number {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #231f20;
+  font-size: 96px;
+  line-height: 1.25;
+  position: absolute;
+  left: -16px;
+  top: -47px;
 }
