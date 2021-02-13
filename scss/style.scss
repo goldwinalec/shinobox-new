@@ -260,11 +260,12 @@ li {
   -o-transition: all 0.2s;
   position: relative;
   z-index: 60;
-  padding: 10px 0;
 }
 
 .nav-list__link {
+  padding: 10px 0;
   z-index: 60;
+  display: block;
 }
 
 .nav-list__link:hover {
