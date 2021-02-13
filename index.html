@@ -44,13 +44,6 @@
         </div>
         <div class="header__nav">
           <ul class="header__nav-list nav-list">
-            <li class="nav-list__item nav-list__item--dropdown">
-              <a href="https://shino-box.ru/o-nas/" class="nav-list__link nav-list__link--dropdown" target="_blank">О НАС</a>
-              <ul class="nav-list__dropdown dropdown-navlist dropdown-navlist--about">
-                <a href="https://shino-box.ru/chastnim-licam" class="nav-list__link dropdown-navlist__link dropdown-navlist__link--about" target="_blank">Частным лицам</a>
-                <a href="https://shino-box.ru/dlya-biznesa" class="nav-list__link dropdown-navlist__link" target="_blank">Для бизнеса</a>
-              </ul>
-            </li>
             <li class="nav-list__item">
               <a href="https://shino-box.ru/sezonnoe-hranenie-shin" class="nav-list__link" target="_blank"
                 >СЕЗОННОЕ ХРАНЕНИЕ</a>
@@ -77,6 +70,13 @@
               <a href="https://shino-box.ru/zapravka-kondiczionera-v-avtomobile" class="nav-list__link" target="_blank"
                 >ЗАПРАВКА КОНДИЦИОНЕРА</a
               >
+            </li>
+            <li class="nav-list__item nav-list__item--dropdown">
+              <a href="https://shino-box.ru/o-nas/" class="nav-list__link nav-list__link--dropdown" target="_blank">О НАС</a>
+              <ul class="nav-list__dropdown dropdown-navlist dropdown-navlist--about">
+                <a href="https://shino-box.ru/chastnim-licam" class="nav-list__link dropdown-navlist__link dropdown-navlist__link--about" target="_blank">Частным лицам</a>
+                <a href="https://shino-box.ru/dlya-biznesa" class="nav-list__link dropdown-navlist__link" target="_blank">Для бизнеса</a>
+              </ul>
             </li>
             <li class="nav-list__item">
               <a href="https://shino-box.ru/kontakti" class="nav-list__link" target="_blank">КОНТАКТЫ</a>
@@ -690,10 +690,20 @@
           и ЦАО в городе Москва
         </p>
       </div>
-        <video class="about__video" preload="none" poster="/images/poster.svg">
+      <div class="about__player player">
+        <video class="player__video" preload="none" poster="/images/poster.svg">
           <source src="/video/Shinobox.ru_.mp4" type="video/mp4">
           <source src="/video/Shinobox.ru_.webm" type="video/webm">
         </video>
+        <div class="player__controls">
+          <button class="player__back"><img src="/images/player-back.svg" alt="Назад"></button>
+          <button class="player__pause"><img src="/images/player-pause.svg" alt="Пауза"></button>
+          <button class="player__play"><img src="/images/player-play.svg" alt="Play"></button>
+          <button class="player__forward"><img src="/images/player-forward.svg" alt="Вперед"></button>
+          <input type="range" class="player__progress">
+          <button class="player__more"><img src="/images/player-more.svg" alt="Доп."></button>
+        </div>
+      </div>
         <div class="container">
         <ul class="about__list">
           <li class="about__list-item">
