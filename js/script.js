@@ -57,5 +57,12 @@ function scrub(e) {
     video.currentTime = scrubTime;
 }
 
+function ended() {
+    document.getElementById('icon').classList.remove('player__pause');
+    document.getElementById('icon').classList.add('player__play');
+}
+
 progressBar.addEventListener('click', scrub);
+video.addEventListener("ended", ended);
+
 
