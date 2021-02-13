@@ -64,5 +64,6 @@ function ended() {
 
 progressBar.addEventListener('click', scrub);
 video.addEventListener("ended", ended);
+video.addEventListener('click', play)
 
 
