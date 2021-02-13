@@ -691,17 +691,21 @@
         </p>
       </div>
       <div class="about__player player">
-        <video class="player__video" preload="none" poster="/images/poster.svg">
+        <video class="player__video" id='video' preload="none" poster="/images/poster.svg">
           <source src="/video/Shinobox.ru_.mp4" type="video/mp4">
           <source src="/video/Shinobox.ru_.webm" type="video/webm">
         </video>
         <div class="player__controls">
-          <button class="player__btn player__back"><img src="/images/player-back.svg" alt="Назад"></button>
-          <button class="player__btn player__pause"><img src="/images/player-pause.svg" alt="Пауза"></button>
-          <button class="player__btn player__play"><img src="/images/player-play.svg" alt="Play"></button>
-          <button class="player__btn player__forward"><img src="/images/player-forward.svg" alt="Вперед"></button>
-          <progress class="player__progress" value="30" max="100"></progress>
-          <button class="player__btn player__more"><img src="/images/player-more.svg" alt="Доп."></button>
+          <div>
+            <button id="icon" class="player__btn player__play" onclick="play()"></button>
+          </div>
+          <div id="time" class="player__time">
+            <span id="minutes">00</span>:<span id="seconds">00</span>
+          </div>
+          <div id="progress" class="player__progress"> 
+            <div id="progress-filled" class="player__filled"></div>
+          </div>
+          <div id="duration" class="player__duration">01:34</div>
         </div>
       </div>
         <div class="container">
