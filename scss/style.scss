@@ -1385,6 +1385,7 @@ li {
   width: 48%;
   padding: 20px;
   border: none;
+  @extend %roboto-medium;
   background-color: $blue;
   color: #fff;
   cursor: pointer;

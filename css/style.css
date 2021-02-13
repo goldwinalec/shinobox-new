@@ -39,7 +39,7 @@ body, .features__item-subtitle, .services__item-subtitle, .rates__item-time,
   font-weight: 400;
 }
 
-.title, .main__button, .rates__item-text, .rates__item-link, .rates__more-link, .accordion__list-item, .accordion__link, .clients__item-link {
+.title, .main__button, .rates__item-text, .rates__item-link, .rates__more-link, .accordion__list-item, .accordion__link, .clients__item-link, .form-contacts__btn {
   font-family: "Roboto-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
