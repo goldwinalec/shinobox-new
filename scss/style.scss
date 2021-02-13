@@ -1178,6 +1178,14 @@ li {
   border: none;
 }
 
+.clients__item--hidden {
+  display: none;
+}
+
+.clients__item-link--hidden {
+  display: none;
+}
+
 .contacts {
   padding-top: 90px;
   padding-bottom: 80px;
