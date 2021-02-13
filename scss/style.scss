@@ -82,11 +82,11 @@ li {
 .address-list__item::after {
   position: absolute;
   content: "";
-  width: 10px;
-  height: 6px;
-  top: calc(50% - 3px);
+  width: 6px;
+  height: 10px;
+  top: calc(50% - 5px);
   right: 0;
-  background-image: url("/images/select.svg");
+  background-image: url("/images/dropdown-right.svg");
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -114,11 +114,11 @@ li {
 
 .address-list:hover .address-list__item::after,
 .address-list:focus-within .address-list__item::after {
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 .address-list__item {
@@ -274,22 +274,26 @@ li {
 
 .nav-list__item--dropdown {
   position: relative;
+}
+
+.nav-list__link--dropdown {
   padding-right: 18px;
 }
 
 .nav-list__item--dropdown::after {
   position: absolute;
   content: "";
-  width: 10px;
-  height: 6px;
-  top: 15px;
+  width: 6px;
+  height: 10px;
+  top: 14px;
   right: 0;
-  background-image: url("/images/select.svg");
+  background-image: url("/images/dropdown-right.svg");
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  z-index: -1;
 }
 
 .dropdown-navlist {
@@ -315,11 +319,11 @@ li {
   }
 }
 .nav-list__item--dropdown:hover::after {
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 .dropdown-navlist__link {
