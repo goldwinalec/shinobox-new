@@ -7,12 +7,12 @@ $('.accordion__title').on('click', function(){
 });
 //
 
-// блок "нам доверяют"
-$('.clients__item-link').on('click', function(evt){
-    evt.preventDefault();
-    $('.clients__item').removeClass('clients__item--hidden');
-    $('.clients__item-link').addClass('clients__item-link--hidden');
-});
+// // блок "нам доверяют"
+// $('.clients__item-link').on('click', function(evt){
+//     evt.preventDefault();
+//     $('.clients__item').removeClass('clients__item--hidden');
+//     $('.clients__item-link').addClass('clients__item-link--hidden');
+// });
 
 
 

@@ -1155,8 +1155,74 @@ li {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -40px;
+  bottom: 5px;
   z-index: 120;
+  background-color: rgba(#fff, 0.45);
+  padding: 30px;
+}
+
+.player__btn {
+  border: none;
+  background-color: transparent;
+}
+
+.player__btn + .player__btn {
+  margin-left: 40px;
+}
+
+.player__progress {
+  margin: 0 40px;
+}
+
+// стилизация прогресс-бара
+
+.player__progress,
+.player__progress::-webkit-progress-bar,
+.player__progress::-webkit-progress-value,
+.player__progress::-moz-progress-bar {
+  border: 0;
+  height: 18px;
+  width: 100%;
+}
+
+.player__progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+}
+
+.player__progress[value]::-webkit-progress-bar {
+  background-color: rgba($lightblack, 0.5);
+  height: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.player__progress[value]::-webkit-progress-value {
+  background-color: $lightblack;
+  height: 11px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  bottom: -3px;
+}
+
+//
+
+.player__progress {
+  width: 100%;
+}
+
+.player__more {
+  margin-left: auto;
 }
 
 .clients {
