@@ -93,7 +93,7 @@ $('#slider-4').slick({
 
 
 $(window).on('load resize', function() {
-  if ($(window).width() < 769) {
+  if ($(window).width() < 886) {
     $('#slider-3:not(.slick-initialized)').slick({
       dots: false,
       slidesToShow: 2,
