@@ -524,14 +524,12 @@ li {
   height: 80px;
 }
 
-.features__item-img {
-  margin-bottom: 25px;
-}
-
 .features__item-title {
   @extend %noah-bold;
   font-size: 24px;
   line-height: 24px;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .features__item-subtitle {
@@ -659,8 +657,10 @@ li {
 }
 
 .services__img {
-  height: 446px;
   overflow: hidden;
+}
+.services__img img {
+  height: 446px;
 }
 
 .rates__title {
@@ -861,11 +861,11 @@ li {
 .accordion__title::after {
   position: absolute;
   content: "";
+  background-image: url("/images/arrow-down.svg");
   right: 30px;
   top: 0;
   width: 44px;
   height: 53px;
-  background-image: url("/images/arrow-down.svg");
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -940,7 +940,7 @@ li {
 }
 
 .feedback {
-  padding-top: 83px;
+  padding-top: 80px;
 }
 
 .rating {
