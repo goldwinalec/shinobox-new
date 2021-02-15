@@ -33,6 +33,36 @@ $lightblack: #231f20;
   text-transform: none;
 }
 
+%title-medium {
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+%subtitle-medium {
+  font-size: 48px;
+  line-height: 1.17;
+}
+
+%subtitle--blue-medium {
+  font-size: 48px;
+  line-height: 1.17;
+}
+
+%title-min {
+  font-size: 10px;
+  line-height: 1.17;
+}
+
+%subtitle-min {
+  font-size: 32px;
+  line-height: 1.17;
+}
+
+%subtitle--blue-min {
+  font-size: 32px;
+  line-height: 1.17;
+}
+
 %roboto-light {
   font-family: "Roboto-Light", sans-serif;
   font-style: normal;
