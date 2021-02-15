@@ -227,6 +227,12 @@ li {
 .address-list__link {
   padding-left: 45px;
   padding-right: 18px;
+  z-index: 100;
+}
+
+.address-dropdown__link {
+  padding-left: 55px;
+  padding-right: 63px;
 }
 
 .address-list__link:hover {
@@ -259,6 +265,7 @@ li {
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  z-index: -1;
 }
 
 .address-list {
@@ -295,7 +302,6 @@ li {
 }
 
 .address-dropdown {
-  display: none;
   position: absolute;
   left: -10px;
   right: -10px;
