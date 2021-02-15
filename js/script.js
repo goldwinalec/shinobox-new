@@ -14,10 +14,6 @@ $('.clients__item-link').on('click', function(evt){
     $('.clients__item-link').addClass('clients__item-link--hidden');
 });
 
-
-
-
-
 // плеер
 var video = document.getElementById('video');
 var progressBar = document.getElementById('progress');
@@ -64,6 +60,63 @@ function ended() {
 
 progressBar.addEventListener('click', scrub);
 video.addEventListener("ended", ended);
-video.addEventListener('click', play)
+video.addEventListener('click', play);
+
+// слайдер
+$('#slider-4').slick({
+      dots: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: true,
+      ltr: false,
+    //   infinite: false,
+    //   centerMode: true,
+    //   centerPadding: '100px',
+      responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
 
 
+
+$(window).on('load resize', function() {
+  if ($(window).width() < 769) {
+    $('#slider:not(.slick-initialized)').slick({
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      arrows: false,
+      responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+    });
+  } else {
+    $("#slider.slick-initialized").slick("unslick");
+  }
+});
