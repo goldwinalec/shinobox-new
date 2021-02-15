@@ -35,11 +35,6 @@ li {
   padding: 0 20px;
   margin: 0 auto;
 }
-// .container__right {
-//   max-width: 1280px;
-//   padding: 0 20px 0 0;
-//   margin: 0 auto;
-// }
 
 .title {
   @extend %title;
@@ -62,12 +57,15 @@ li {
 }
 
 .address-list__item {
-  padding-left: 45px;
-  padding-right: 18px;
   position: relative;
   @extend %montserrat-regular;
   font-size: 14px;
   line-height: 17px;
+}
+
+.address-list__link {
+  padding-left: 45px;
+  padding-right: 18px;
 }
 
 .address-list__link:hover {
@@ -134,10 +132,9 @@ li {
 .address-dropdown {
   display: none;
   position: absolute;
-  left: 45px;
-  right: 18px;
+  left: -10px;
+  right: -10px;
   bottom: -45px;
-  padding-inline-start: 0;
 }
 
 .address-dropdown__item {
@@ -149,8 +146,8 @@ li {
   height: 1px;
   background-color: #fff;
   top: -12px;
-  left: -55px;
-  right: -28px;
+  left: 0px;
+  right: 0px;
 }
 
 .address-list:hover .address-dropdown {
@@ -315,7 +312,7 @@ li {
 }
 
 .dropdown-navlist--shin {
-  bottom: -195px;
+  bottom: -115px;
 }
 
 .nav-list__item--dropdown:hover,

@@ -219,11 +219,14 @@ li {
 }
 
 .address-list__item {
-  padding-left: 45px;
-  padding-right: 18px;
   position: relative;
   font-size: 14px;
   line-height: 17px;
+}
+
+.address-list__link {
+  padding-left: 45px;
+  padding-right: 18px;
 }
 
 .address-list__link:hover {
@@ -294,11 +297,9 @@ li {
 .address-dropdown {
   display: none;
   position: absolute;
-  left: 45px;
-  right: 18px;
+  left: -10px;
+  right: -10px;
   bottom: -45px;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
 }
 
 .address-dropdown__item {
@@ -311,8 +312,8 @@ li {
   height: 1px;
   background-color: #fff;
   top: -12px;
-  left: -55px;
-  right: -28px;
+  left: 0px;
+  right: 0px;
 }
 
 .address-list:hover .address-dropdown {
@@ -507,7 +508,7 @@ li {
 }
 
 .dropdown-navlist--shin {
-  bottom: -195px;
+  bottom: -115px;
 }
 
 .nav-list__item--dropdown:hover .dropdown-navlist,
