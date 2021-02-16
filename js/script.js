@@ -103,3 +103,47 @@ $(window).on('load resize', function() {
     $("#slider-3.slick-initialized").slick("unslick");
   }
 });
+$(window).on('load resize', function() {
+  if ($(window).width() < 767) {
+    $('#slider-2:not(.slick-initialized)').slick({
+      dots: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: false,
+      responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+    });
+  } else {
+    $("#slider-2.slick-initialized").slick("unslick");
+  }
+});
+$(window).on('load resize', function() {
+  if ($(window).width() < 767) {
+    $('#slider-1:not(.slick-initialized)').slick({
+      dots: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
+      infinite: false,
+      responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+    });
+  } else {
+    $("#slider-1.slick-initialized").slick("unslick");
+  }
+});

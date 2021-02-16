@@ -385,6 +385,7 @@ li {
   left: -5%;
   background-image: url("/images/main-item-1.png");
   background-repeat: no-repeat;
+  background-size: contain;
   z-index: 100;
 }
 .main::after {
@@ -395,6 +396,7 @@ li {
   right: -128px;
   background-image: url("/images/main-item-2.png");
   background-repeat: no-repeat;
+  background-size: contain;
   z-index: -1;
 }
 
@@ -606,6 +608,7 @@ li {
 }
 
 .services__description {
+  @extend %noah-regular;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -1042,7 +1045,8 @@ li {
   position: relative;
 }
 
-.slick-list {
+#slider-3.slick-list,
+#slider-4.slick-list {
   padding: 0 150px 0 0;
 }
 
