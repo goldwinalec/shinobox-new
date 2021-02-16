@@ -91,7 +91,7 @@ $(window).on('load resize', function() {
       infinite: false,
       responsive: [
     {
-      breakpoint: 480,
+      breakpoint: 601,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1

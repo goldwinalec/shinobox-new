@@ -393,7 +393,7 @@
     margin-top: 24px;
   }
   .accordion__link {
-    width: 26%;
+    width: 30%;
     font-size: 14px;
   }
   .rating__number {
@@ -676,22 +676,7 @@
     margin-bottom: -11px;
     -webkit-text-stroke-width: 1px;
   }
-  .rates__items {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template: 24px;
-  }
-  .rates__item-link {
-    width: 70%;
-    margin-right: -20px;
-    margin-bottom: -20px;
-  }
-  .rates__item {
-    padding: 20px;
-  }
-  .rates__item-title {
-    text-align: left;
-  }
+
   .rates__more {
     display: flex;
     align-items: center;
@@ -705,6 +690,56 @@
   }
   .rates__more-link {
     flex-basis: 100%;
+  }
+  .rates__item-link {
+    width: 70%;
+    margin-right: -20px;
+    margin-bottom: -20px;
+  }
+  .rates__item {
+    padding: 20px;
+  }
+  .rates__item-title {
+    text-align: left;
+  }
+  #slider-3 {
+    .slick-list {
+      padding: 0 20px 0 0;
+    }
+  }
+  #slider-4 {
+    .slick-list {
+      padding: 0;
+    }
+  }
+  .feedback__item {
+    margin: 0;
+  }
+  .rating__item {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 678px) {
+  .accordion__link {
+    width: 35%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 634px) {
+  .rates__items {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  #slider-3 {
+    .slick-list {
+      padding: 0 150px 0 0;
+    }
   }
 }
 @media (max-width: 575px) {
@@ -767,5 +802,48 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+  }
+  .accordion__link {
+    width: 41%;
+  }
+  .rating__inner {
+    padding: 12px 14px;
+  }
+  .about__text {
+    width: 98%;
+  }
+  .player__play,
+  .player__pause {
+    width: 25px;
+    height: 25px;
+  }
+  .player__controls {
+    bottom: 3px;
+    padding: 5px 10px;
+  }
+  .player__time,
+  .player__duration {
+    font-size: 12px;
+  }
+  .player__filled {
+    height: 3px;
+    top: -1px;
+  }
+  .player__progress {
+    height: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordion__link {
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  #slider-3 {
+    .slick-list {
+      padding: 0 20px 0 0;
+    }
   }
 }
