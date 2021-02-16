@@ -68,20 +68,9 @@ $('#slider-4').slick({
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: true,
-      ltr: false,
-    //   infinite: false,
-    //   centerMode: true,
-    //   centerPadding: '100px',
       responsive: [
     {
-      breakpoint: 769,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
+      breakpoint: 990,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -99,6 +88,7 @@ $(window).on('load resize', function() {
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: false,
+      infinite: false,
       responsive: [
     {
       breakpoint: 480,
