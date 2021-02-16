@@ -676,6 +676,21 @@
     margin-bottom: -11px;
     -webkit-text-stroke-width: 1px;
   }
+  .rates__items {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .rates__item-link {
+    width: 70%;
+    margin-right: -20px;
+    margin-bottom: -20px;
+  }
+  .rates__item {
+    padding: 20px;
+  }
+  .rates__item-title {
+    text-align: left;
+  }
 }
 @media (max-width: 575px) {
   .clients__item-img {
