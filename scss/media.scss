@@ -679,6 +679,7 @@
   .rates__items {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+    grid-template: 24px;
   }
   .rates__item-link {
     width: 70%;
@@ -690,6 +691,20 @@
   }
   .rates__item-title {
     text-align: left;
+  }
+  .rates__more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .rates__more-text {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rates__more-link {
+    flex-basis: 100%;
   }
 }
 @media (max-width: 575px) {
