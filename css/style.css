@@ -2982,6 +2982,15 @@ li {
   .player__progress {
     height: 1px;
   }
+  .about__list {
+    margin-top: 30px;
+  }
+  .clients__items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 @media (max-width: 480px) {

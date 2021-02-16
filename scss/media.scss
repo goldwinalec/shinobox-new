@@ -832,6 +832,13 @@
   .player__progress {
     height: 1px;
   }
+  .about__list {
+    margin-top: 30px;
+  }
+  .clients__items {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 @media (max-width: 480px) {
